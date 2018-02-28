@@ -11,6 +11,19 @@ body {
   margin: auto;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
 /* Header/Navigation */
 .company {
   background-color: black;
@@ -29,8 +42,34 @@ body {
 
 /* Hero Banner */
 
-.hero {
+.main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 25em;
+}
+
+.hero-headline {
+  position: relative;
+  top: 10em;
+  width: 20em;
+  background-color: black;
+  padding: 2em 3em;
+  /*line-height: 3em;*/
+}
+
+.hero-headline h1 {
+  line-height: 2.5rem;
+}
+
+.hero-headline h4 {
+  line-height: 4rem;
+}
+
+/* Navigation */
+
+.navigation {
+  background-color: red;
+  color: white;
 }
